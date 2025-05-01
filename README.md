@@ -1,45 +1,61 @@
-# Snowflake-Datawarehouse-Mini-Project
-## Description
 
-This repository contains SQL queries and data modeling examples that showcase the data warehousing and analytical capabilities of the Snowflake Data Platform. The project uses the TPCH_SF1 schema from the SNOWFLAKE_SAMPLE_DATA database alongside the COMPUTE_WH warehouse to perform a series of queries that demonstrate insightful data manipulation and analysis.
+# ❄️ Retail & Supply Analytics with Snowflake
 
-## Contents
-
-- SQL queries to find total sales per customer, top-selling products, average order values by region, order shipment efficiency, and suppliers with the highest supply costs.
-- ER Model of the TPCH_SF1 schema.
-- Screenshots of executed queries and their results.
-
-## Insights
-
-The queries are designed to provide valuable business insights such as:
-- Identifying high-value customers and top-selling products.
-- Analyzing transaction values by region.
-- Assessing the efficiency of the shipping process.
-- Evaluating supplier costs to optimize supply chain management.
-
-## Getting Started
-
-To run these queries on your own Snowflake instance, ensure that you have access to the SNOWFLAKE_SAMPLE_DATA database and COMPUTE_WH warehouse. Clone this repository, set up your Snowflake environment, and run the queries in your SQL editor.
-
-## Additional Resources
-
-- [Snowflake Documentation](https://docs.snowflake.com/en/index.html)
-- [Getting Started with Snowflake](https://docs.snowflake.com/en/user-guide/getting-started-tutorial.html)
-
-## Contributing
-
-Feel free to fork this repository and contribute by submitting pull requests with enhancements or fixes to the SQL queries provided.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-## Acknowledgments
-
-- Special thanks to Snowflake and the creators of the TPCH_SF1 schema for providing the datasets.
-- Course: DB systems for Data Analytics - Fall 2023
+This project showcases my ability to perform advanced analytical queries using the **Snowflake Data Platform** with the industry-standard **TPCH benchmark dataset**. The work emphasizes **SQL proficiency**, **data modeling understanding**, and the ability to derive actionable insights for business decision-making — all using **cloud-based analytics at scale**.
 
 ---
 
-### Creator
-**Akshay Sodha**
+## 📊 Project Objectives
+
+- Explore a normalized **star-schema** dataset (`TPCH_SF1`) within Snowflake.
+- Write complex **multi-table join queries** to simulate real-world business questions.
+- Uncover patterns in **sales, customer behavior, shipping delays, and supplier costs**.
+- Present results and insights that could directly inform business strategy, marketing, and supply chain efficiency.
+
+---
+
+## 🧰 Tools & Technologies Used
+
+- **Snowflake Data Warehouse** (Cloud-based, SQL-powered)
+- **TPCH_SF1 sample schema** (`SNOWFLAKE_SAMPLE_DATA`)
+- **SQL**: Advanced joins, aggregations, groupings, filtering, ordering
+- **Snowflake UI Worksheets** for query execution and result sharing
+
+---
+
+## 🧪 Key Analytical Scenarios
+
+### 1. Total Sales per Customer
+- Demonstrated revenue calculation using tax and discount multipliers.
+- Highlights high-value customers for **targeted retention strategies**.
+
+### 2. Top-Selling Products
+- Identified best-performing inventory using sales volume analysis.
+- Supports **data-driven product promotion and stocking decisions**.
+
+### 3. Average Order Value by Region
+- Used geospatial joins to understand **regional purchasing power**.
+- Enables **geo-targeted campaigns and resource allocation**.
+
+### 4. On-Time vs Delayed Orders
+- Analyzed fulfillment efficiency with status-based segmentation.
+- Reveals **logistics bottlenecks and service reliability** issues.
+
+### 5. Supplier Cost Analysis
+- Ranked suppliers by cumulative supply costs.
+- Provides a foundation for **vendor negotiations** and risk reduction.
+
+---
+
+## 🎯 Key Skills Demonstrated
+
+- Strong command over **multi-source relational joins**
+- Optimization of SQL queries for **readability and performance**
+- Application of **business logic** to raw data for actionable outcomes
+- Familiarity with **enterprise-level cloud data platforms**
+- Ability to communicate insights from complex schemas clearly
+
+---
+
+This project reflects how I bridge technical querying skills with business understanding — making data not just accessible, but useful.
+"""
