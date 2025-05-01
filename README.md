@@ -58,4 +58,3 @@ This project showcases my ability to perform advanced analytical queries using t
 ---
 
 This project reflects how I bridge technical querying skills with business understanding — making data not just accessible, but useful.
-"""
